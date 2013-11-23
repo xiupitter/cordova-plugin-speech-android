@@ -21,7 +21,7 @@ import android.util.Log;
 public class Audio {
 	private final String TAG = Audio.class.getSimpleName();
 	
-	private AudioRecord mAudioRecord;
+	private AudioRecord mAudioRecord; 
 	private AudioTrack mAudioTrack;
 	private Speex speex;
 	private ExecutorService executor;
